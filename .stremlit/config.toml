@@ -1,0 +1,2 @@
+[runner]
+install_nltk_data = true
