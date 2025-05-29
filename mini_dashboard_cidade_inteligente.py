@@ -20,6 +20,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import MultinomialNB
 import joblib
 import nltk
+nltk.data.path.append('./nltk_data/')
 from nltk.corpus import stopwords
 from nltk.stem import RSLPStemmer
 
