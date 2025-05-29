@@ -24,7 +24,7 @@ from nltk.corpus import stopwords
 from nltk.stem import RSLPStemmer
 
 # Downloads NLTK
-nltk.download('stopwords')
+# nltk.download('stopwords')
 stop_words = set(stopwords.words('portuguese'))
 stemmer = RSLPStemmer()
 
